@@ -11,11 +11,9 @@ platforms:
 provisioner:
   name: ansible_playbook
   hosts: all
-  require_ansible_repo: true
   ansible_verbose: true
   require_chef_for_busser: false
-  playbook: test/role/main.yml
-  requirements_path: test/role/requirements.yml
+  playbook: test/test.yml
 
 verifier:
   name: inspec

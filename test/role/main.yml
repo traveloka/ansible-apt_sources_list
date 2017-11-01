@@ -1,4 +1,0 @@
----
-- hosts: all
-  roles:
-    - apt_sources_list

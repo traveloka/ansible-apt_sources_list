@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - ansible-apt_sources_list
